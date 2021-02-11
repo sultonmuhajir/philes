@@ -1,0 +1,223 @@
+/* Desktop Version */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url(img/bgweb.png);
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 2.34vmax;
+}
+
+h2 {
+	font-size: 1.75vmax;
+}
+
+h3 {
+	font-size: 1.37vmax;
+}
+
+h4,
+p,
+label,
+li,
+a {
+	font-size: 1.17vmax;
+}
+
+h5 {
+	font-size: .97vmax;
+}
+
+
+hr {
+	width: 18vmax;
+	border-top: .35vmax gray solid;
+	margin-bottom: 2.9vmax;
+}
+
+
+
+/* Navbar */
+.Navbar {
+	position: relative;
+	z-index: 2;
+}
+
+.Navbar nav {
+	background-color: rgb(30, 30, 30);
+	height: 4.2vmax;
+}
+
+.Navbar img {
+	height: 2.2vmax;
+}
+
+.Navbar .nav-link {
+	margin-left: 2.2vmax;
+	color: white !important;
+}
+
+.Navbar .nav-link:hover {
+	border-bottom: .2vmax solid lightgray;
+	margin-bottom: -.2vmax;
+}
+
+
+
+/* Header */
+.Header {
+	height: 36vmax;
+	position: relative;
+	margin-bottom: .7vmax;
+}
+
+.Header img {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.Header .container {
+	color: white;
+	position: relative;
+	z-index: 1;
+	padding-top: 12vmax;
+}
+
+.efHead {
+	opacity: 0;
+	transform: translate(0, 10vmax);
+	transition: 1s;
+}
+
+.effHead {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+
+/* Profile */
+.Profile {
+	background-color: transparent !important;
+	padding: 6.2vmax 0 6.5vmax;
+}
+
+.Profile .container {
+	position: relative;
+}
+
+.Profile img {
+	border-radius: .5vmax;
+	box-shadow: -1.4vmax 1.4vmax .7vmax rgba(0, 0, 0, .3);
+}
+
+.Profile .card {
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+}
+
+.Profile .card-header {
+	height: 4.4vmax;
+	padding: 1.2vmax 1.6vmax;
+}
+
+.Profile .card-body {
+	padding: 1vmax;
+}
+
+.Profile p {
+	font-size: 1.05vmax;
+	line-height: 2vmax;
+}
+
+
+/* Philes */
+.Philes {
+	padding: 4.7vmax 0 25vmax;
+}
+
+.Philes .card {
+	margin: 0 -.3vmax 1.8vmax;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.Philes .box {
+	text-align: center;
+	transition: .4s;
+}
+
+.Philes .box:hover {
+	transform: scale(1.12);
+	z-index: 1;
+}
+
+.Philes .box img {
+	height: 8.7vmax;
+	width: 8.7vmax;
+	margin: 2.9vmax auto 1.4vmax;
+}
+
+.Philes p {
+	padding-bottom: 1.5vmax;
+	font-size: 1.05vmax;
+	line-height: 2vmax;
+}
+
+
+
+/* Footer */
+.Footer {
+	background-color: #444444;
+	text-align: center;
+	color: white;
+	padding: 2.2vmax;
+}
+
+.Footer p {
+	font-size: .97vmax;
+}
+
+.Footer i {
+	font-size: 1.7vmax;
+	margin: .3vmax .7vmax;
+	cursor: pointer;
+}
+
+
+
+/* Footer2 */
+footer {
+	background-color: #333333;
+	padding-top: 1.7vmax;
+	padding-bottom: 1vmax;
+}
+
+
+
+
+/* Mobile Version */
+@media (max-width: 768px) {
+
+	.Navbar .nav-link:hover {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.Profile span {
+		display: none;
+	}
+
+	.Philes .card {
+		margin: 0 -1.5vmax 1.8vmax;
+	}
+
+}
