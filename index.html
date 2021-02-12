@@ -46,7 +46,7 @@
 
 	<!-- Profile -->
 	<section id="Profile" class="Profile bg-light">
-		<div class="container ">
+		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-5">
 					<img src="img/mhjr.jpg" alt="Sulton Muhajir" class="img-fluid">
@@ -176,9 +176,9 @@
 
 				<div class="col">
 					<h3><b>SOCIAL NETWORK</b></h3>
-					<i class="fab fa-facebook-f"></i>
-					<i class="fab fa-instagram"></i>
-					<i class="fab fa-twitter"></i>
+					<a target="_blank" href="https://www.facebook.com/sulton.mhjr"><i class="fab fa-facebook-f"></i></a>
+					<a target="_blank" href="https://www.instagram.com/sulton_mhjr/"><i class="fab fa-instagram"></i></a>
+					<a target="_blank" href="https://twitter.com/sulton_mhjr"><i class="fab fa-twitter"></i></a>
 				</div>
 
 				<div class="col">
@@ -216,7 +216,11 @@
 	</script>
 
 	<!-- Script JS -->
-	<script src="script.js"></script>
+	<script>
+		$(window).on("load", function () {
+			$(".efHead").addClass("effHead");
+		});
+	</script>
 
 
 </body>
