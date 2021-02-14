@@ -90,17 +90,6 @@ hr {
 	padding-top: 12vmax;
 }
 
-.efHead {
-	opacity: 0;
-	transform: translate(0, 10vmax);
-	transition: 1s;
-}
-
-.effHead {
-	opacity: 1;
-	transform: translate(0, 0);
-}
-
 
 
 /* Profile */
